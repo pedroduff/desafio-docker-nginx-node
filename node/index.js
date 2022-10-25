@@ -19,7 +19,7 @@ const createSql = `
 
 connection.query(createSql)  
 connection.query(insertSql)
-connection.end()
+
 
 let tablePeople = '<table><thead><tr><th>Name</th></tr></thead><tbody>';
 
